@@ -259,7 +259,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.white24,
+                  backgroundColor: Colors.black12,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15), // Adjust the border radius here
                   ),
@@ -293,7 +293,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 120,
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(25),
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
